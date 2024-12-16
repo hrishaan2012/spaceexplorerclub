@@ -1,0 +1,46 @@
+   <html>
+    <head>
+        <title>Advance Selectors</title>
+        <style>
+            Body{
+                background-color: black;
+                color: azure;
+
+            }
+            h1{color:  rgb(0, 195, 255);}
+            a{
+                color: grey ;
+                text-decoration: none;
+            }
+            a:hover{color:orange;} 
+            h1+p{background-color:white;
+            font-weight: bold;}
+            ul li:hover{background-color: blueviolet;}
+            ul li::before{
+                content:"🌟";
+            }
+            a::after{
+                content:"😊"
+            }
+        </style>
+    </head>
+       <body>
+        <h1>Welcome to Space Explorers club</h1>
+        <ul>
+            <li>Moon Mission</li>
+            <li>Mars Rovers</li>
+            <li>International Space Station</li>
+            <li>Black Holes</li>
+            
+        </ul>
+        <p>
+            Space exploration has all ways captivated human imagination. Its a journey to the unknown
+        </p>
+        <p>From the moon to distant galaxy we continue to explore the vastness of space   </p>
+        <a href="#">Join our Mission</a>
+        <br>
+        <a href="#">Latest space news</a>
+        <br>
+        <a href="#">gallary of the universe</a>
+       </body>
+   </html>
